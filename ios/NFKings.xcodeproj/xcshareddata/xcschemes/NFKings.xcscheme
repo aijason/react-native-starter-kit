@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "NFKingsApp.app"
-               BlueprintName = "NFKingsApp"
-               ReferencedContainer = "container:NFKingsApp.xcodeproj">
+               BuildableName = "NFKings.app"
+               BlueprintName = "NFKings"
+               ReferencedContainer = "container:NFKings.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "NFKingsAppTests.xctest"
-               BlueprintName = "NFKingsAppTests"
-               ReferencedContainer = "container:NFKingsApp.xcodeproj">
+               BuildableName = "NFKingsTests.xctest"
+               BlueprintName = "NFKingsTests"
+               ReferencedContainer = "container:NFKings.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "NFKingsApp.app"
-            BlueprintName = "NFKingsApp"
-            ReferencedContainer = "container:NFKingsApp.xcodeproj">
+            BuildableName = "NFKings.app"
+            BlueprintName = "NFKings"
+            ReferencedContainer = "container:NFKings.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "NFKingsApp.app"
-            BlueprintName = "NFKingsApp"
-            ReferencedContainer = "container:NFKingsApp.xcodeproj">
+            BuildableName = "NFKings.app"
+            BlueprintName = "NFKings"
+            ReferencedContainer = "container:NFKings.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

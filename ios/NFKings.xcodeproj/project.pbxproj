@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* NFKingsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NFKingsAppTests.m */; };
+		00E356F31AD99517003FC87E /* NFKingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NFKingsTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		17AE6C0DBC216826FE2A157F /* libPods-NFKingsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D34B19183CD8E788FA1C92 /* libPods-NFKingsApp.a */; };
+		17AE6C0DBC216826FE2A157F /* libPods-NFKings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D34B19183CD8E788FA1C92 /* libPods-NFKings.a */; };
 		2E5873EB3D1F461D96D1DCFA /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1CE1328ACB9420E8C0B412F /* Zocial.ttf */; };
 		3C0C4E8229FF4A61BE5B87E5 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C87A047B4E340E6B8B7A0FC /* MaterialIcons.ttf */; };
 		3F0C970019A6481CB299B0FD /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82DB181834E949809AE5CFA5 /* Roboto_medium.ttf */; };
@@ -29,7 +29,7 @@
 		B5AE49520AAD47BA905109BB /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9EEDE03D718479CABBB9067 /* FontAwesome5_Brands.ttf */; };
 		B95A9353B8DD4B9FB4280D3A /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A3B6727D54145BC39BAE0 /* Entypo.ttf */; };
 		C28E07F5BCB0464F808F926B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42A8759CF55458A94D73062 /* SimpleLineIcons.ttf */; };
-		C4A4332B8B6BA9D9AB0B81C6 /* libPods-NFKingsApp-NFKingsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE6DADD12395AC49436C7AB /* libPods-NFKingsApp-NFKingsAppTests.a */; };
+		C4A4332B8B6BA9D9AB0B81C6 /* libPods-NFKings-NFKingsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE6DADD12395AC49436C7AB /* libPods-NFKings-NFKingsTests.a */; };
 		CA6FB05D0E9440B8A5FBD614 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6206D66B42745F698758D90 /* Ionicons.ttf */; };
 		CC0ED90727F941D5B9C1A3B8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E912703B5075432DB6F7BE64 /* Foundation.ttf */; };
 		DE676BC6CFD14E4BB5EFDBEE /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4C21A36F9F44BBBB83D23A0 /* Fontisto.ttf */; };
@@ -41,47 +41,47 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = NFKingsApp;
+			remoteInfo = NFKings;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* NFKingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFKingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* NFKingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFKingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* NFKingsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFKingsAppTests.m; sourceTree = "<group>"; };
-		0C87A047B4E340E6B8B7A0FC /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* NFKingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFKingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NFKingsApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NFKingsApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NFKingsApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NFKingsApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NFKingsApp/main.m; sourceTree = "<group>"; };
-		3A6BDECDC16A451BBE1A27A0 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		570A3B6727D54145BC39BAE0 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		72D34B19183CD8E788FA1C92 /* libPods-NFKingsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFKingsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NFKingsApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82DB181834E949809AE5CFA5 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
-		8FC446A8BA6A321C0183E929 /* Pods-NFKingsApp-NFKingsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKingsApp-NFKingsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		92C7F7510BBA4772947ED323 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		A42A8759CF55458A94D73062 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		A5DB01B2BDA14EB2A581D5A8 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		AAE6DADD12395AC49436C7AB /* libPods-NFKingsApp-NFKingsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFKingsApp-NFKingsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1CE1328ACB9420E8C0B412F /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		B98484F20B264A01A512C958 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
-		B9EEDE03D718479CABBB9067 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		BD4ACD6A1DF5468195C5A0FF /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
-		BFF3BCA752D785C52BB0B345 /* Pods-NFKingsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKingsApp.debug.xcconfig"; path = "Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C0CC25F6F9754595ACB79E8B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		C4A7B3C99C3C3FAA27633CC7 /* Pods-NFKingsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKingsApp.release.xcconfig"; path = "Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp.release.xcconfig"; sourceTree = "<group>"; };
-		C6206D66B42745F698758D90 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		E0109CEE895D4FEE9C98317C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		E155E3B6D0CC4D4D8A7F8D30 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		E4C21A36F9F44BBBB83D23A0 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		E732E1BC06394B4D9B0CF432 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		E912703B5075432DB6F7BE64 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		E946699219E815F35E5B5E90 /* Pods-NFKingsApp-NFKingsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKingsApp-NFKingsAppTests.release.xcconfig"; path = "Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NFKingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFKingsTests.m; sourceTree = "<group>"; };
+		0C87A047B4E340E6B8B7A0FC /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NFKings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFKings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NFKings/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NFKings/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NFKings/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NFKings/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NFKings/main.m; sourceTree = "<group>"; };
+		3A6BDECDC16A451BBE1A27A0 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		570A3B6727D54145BC39BAE0 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		72D34B19183CD8E788FA1C92 /* libPods-NFKings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFKings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NFKings/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82DB181834E949809AE5CFA5 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		8FC446A8BA6A321C0183E929 /* Pods-NFKings-NFKingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKings-NFKingsTests.debug.xcconfig"; path = "Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92C7F7510BBA4772947ED323 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A42A8759CF55458A94D73062 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		A5DB01B2BDA14EB2A581D5A8 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		AAE6DADD12395AC49436C7AB /* libPods-NFKings-NFKingsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFKings-NFKingsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CE1328ACB9420E8C0B412F /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B98484F20B264A01A512C958 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		B9EEDE03D718479CABBB9067 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		BD4ACD6A1DF5468195C5A0FF /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		BFF3BCA752D785C52BB0B345 /* Pods-NFKings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKings.debug.xcconfig"; path = "Target Support Files/Pods-NFKings/Pods-NFKings.debug.xcconfig"; sourceTree = "<group>"; };
+		C0CC25F6F9754595ACB79E8B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C4A7B3C99C3C3FAA27633CC7 /* Pods-NFKings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKings.release.xcconfig"; path = "Target Support Files/Pods-NFKings/Pods-NFKings.release.xcconfig"; sourceTree = "<group>"; };
+		C6206D66B42745F698758D90 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		E0109CEE895D4FEE9C98317C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E155E3B6D0CC4D4D8A7F8D30 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		E4C21A36F9F44BBBB83D23A0 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E732E1BC06394B4D9B0CF432 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E912703B5075432DB6F7BE64 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		E946699219E815F35E5B5E90 /* Pods-NFKings-NFKingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFKings-NFKingsTests.release.xcconfig"; path = "Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FBFD9E68BD9A47E9972A3BB0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		FBFD9E68BD9A47E9972A3BB0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A4332B8B6BA9D9AB0B81C6 /* libPods-NFKingsApp-NFKingsAppTests.a in Frameworks */,
+				C4A4332B8B6BA9D9AB0B81C6 /* libPods-NFKings-NFKingsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,20 +97,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17AE6C0DBC216826FE2A157F /* libPods-NFKingsApp.a in Frameworks */,
+				17AE6C0DBC216826FE2A157F /* libPods-NFKings.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* NFKingsAppTests */ = {
+		00E356EF1AD99517003FC87E /* NFKingsTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* NFKingsAppTests.m */,
+				00E356F21AD99517003FC87E /* NFKingsTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = NFKingsAppTests;
+			path = NFKingsTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -121,7 +121,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* NFKingsApp */ = {
+		13B07FAE1A68108700A75B9A /* NFKings */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -131,15 +131,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = NFKingsApp;
+			name = NFKings;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				72D34B19183CD8E788FA1C92 /* libPods-NFKingsApp.a */,
-				AAE6DADD12395AC49436C7AB /* libPods-NFKingsApp-NFKingsAppTests.a */,
+				72D34B19183CD8E788FA1C92 /* libPods-NFKings.a */,
+				AAE6DADD12395AC49436C7AB /* libPods-NFKings-NFKingsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,7 +168,6 @@
 				B1CE1328ACB9420E8C0B412F /* Zocial.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -181,9 +180,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* NFKingsApp */,
+				13B07FAE1A68108700A75B9A /* NFKings */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* NFKingsAppTests */,
+				00E356EF1AD99517003FC87E /* NFKingsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C41DAA88B60827332D40ED9E /* Pods */,
@@ -197,8 +196,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* NFKingsApp.app */,
-				00E356EE1AD99517003FC87E /* NFKingsAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* NFKings.app */,
+				00E356EE1AD99517003FC87E /* NFKingsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,21 +205,20 @@
 		C41DAA88B60827332D40ED9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFF3BCA752D785C52BB0B345 /* Pods-NFKingsApp.debug.xcconfig */,
-				C4A7B3C99C3C3FAA27633CC7 /* Pods-NFKingsApp.release.xcconfig */,
-				8FC446A8BA6A321C0183E929 /* Pods-NFKingsApp-NFKingsAppTests.debug.xcconfig */,
-				E946699219E815F35E5B5E90 /* Pods-NFKingsApp-NFKingsAppTests.release.xcconfig */,
+				BFF3BCA752D785C52BB0B345 /* Pods-NFKings.debug.xcconfig */,
+				C4A7B3C99C3C3FAA27633CC7 /* Pods-NFKings.release.xcconfig */,
+				8FC446A8BA6A321C0183E929 /* Pods-NFKings-NFKingsTests.debug.xcconfig */,
+				E946699219E815F35E5B5E90 /* Pods-NFKings-NFKingsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* NFKingsAppTests */ = {
+		00E356ED1AD99517003FC87E /* NFKingsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NFKingsAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NFKingsTests" */;
 			buildPhases = (
 				D65272BAF1BF5A934DCADF0D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -234,14 +232,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = NFKingsAppTests;
-			productName = NFKingsAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* NFKingsAppTests.xctest */;
+			name = NFKingsTests;
+			productName = NFKingsTests;
+			productReference = 00E356EE1AD99517003FC87E /* NFKingsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* NFKingsApp */ = {
+		13B07F861A680F5B00A75B9A /* NFKings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NFKingsApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NFKings" */;
 			buildPhases = (
 				1ED42145D094BE77D8E6F766 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -256,9 +254,9 @@
 			);
 			dependencies = (
 			);
-			name = NFKingsApp;
-			productName = NFKingsApp;
-			productReference = 13B07F961A680F5B00A75B9A /* NFKingsApp.app */;
+			name = NFKings;
+			productName = NFKings;
+			productReference = 13B07F961A680F5B00A75B9A /* NFKings.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NFKingsApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NFKings" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -291,8 +289,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* NFKingsApp */,
-				00E356ED1AD99517003FC87E /* NFKingsAppTests */,
+				13B07F861A680F5B00A75B9A /* NFKings */,
+				00E356ED1AD99517003FC87E /* NFKingsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -365,7 +363,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NFKingsApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NFKings-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,15 +376,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7CE03EED2CC84C17A6E7D74D /* [CP] Embed Pods Frameworks */ = {
@@ -395,15 +393,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings/Pods-NFKings-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings/Pods-NFKings-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKings/Pods-NFKings-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C1CAC6139B16CD59D369C1C0 /* [CP] Copy Pods Resources */ = {
@@ -412,15 +410,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp-NFKingsAppTests/Pods-NFKingsApp-NFKingsAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKings-NFKingsTests/Pods-NFKings-NFKingsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D65272BAF1BF5A934DCADF0D /* [CP] Check Pods Manifest.lock */ = {
@@ -438,7 +436,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NFKingsApp-NFKingsAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NFKings-NFKingsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,15 +449,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings/Pods-NFKings-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NFKings/Pods-NFKings-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKingsApp/Pods-NFKingsApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFKings/Pods-NFKings-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -488,7 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* NFKingsAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* NFKingsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +504,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* NFKingsApp */;
+			target = 13B07F861A680F5B00A75B9A /* NFKings */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,14 +512,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FC446A8BA6A321C0183E929 /* Pods-NFKingsApp-NFKingsAppTests.debug.xcconfig */;
+			baseConfigurationReference = 8FC446A8BA6A321C0183E929 /* Pods-NFKings-NFKingsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = NFKingsAppTests/Info.plist;
+				INFOPLIST_FILE = NFKingsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,17 +533,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFKingsApp.app/NFKingsApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFKings.app/NFKings";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E946699219E815F35E5B5E90 /* Pods-NFKingsApp-NFKingsAppTests.release.xcconfig */;
+			baseConfigurationReference = E946699219E815F35E5B5E90 /* Pods-NFKings-NFKingsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = NFKingsAppTests/Info.plist;
+				INFOPLIST_FILE = NFKingsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -559,19 +557,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFKingsApp.app/NFKingsApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFKings.app/NFKings";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF3BCA752D785C52BB0B345 /* Pods-NFKingsApp.debug.xcconfig */;
+			baseConfigurationReference = BFF3BCA752D785C52BB0B345 /* Pods-NFKings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = NFKingsApp/Info.plist;
+				INFOPLIST_FILE = NFKings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -581,8 +579,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = NFKingsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancai.nfkings;
+				PRODUCT_NAME = NFKings;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -591,12 +589,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4A7B3C99C3C3FAA27633CC7 /* Pods-NFKingsApp.release.xcconfig */;
+			baseConfigurationReference = C4A7B3C99C3C3FAA27633CC7 /* Pods-NFKings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = NFKingsApp/Info.plist;
+				INFOPLIST_FILE = NFKings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,8 +604,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = NFKingsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancai.nfkings;
+				PRODUCT_NAME = NFKings;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -739,7 +737,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NFKingsAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NFKingsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -748,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NFKingsApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NFKings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -757,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NFKingsApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NFKings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
