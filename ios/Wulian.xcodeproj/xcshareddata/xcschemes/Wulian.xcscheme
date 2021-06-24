@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "WulianApp.app"
-               BlueprintName = "WulianApp"
-               ReferencedContainer = "container:WulianApp.xcodeproj">
+               BuildableName = "Wulian.app"
+               BlueprintName = "Wulian"
+               ReferencedContainer = "container:Wulian.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "WulianAppTests.xctest"
-               BlueprintName = "WulianAppTests"
-               ReferencedContainer = "container:WulianApp.xcodeproj">
+               BuildableName = "WulianTests.xctest"
+               BlueprintName = "WulianTests"
+               ReferencedContainer = "container:Wulian.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "WulianApp.app"
-            BlueprintName = "WulianApp"
-            ReferencedContainer = "container:WulianApp.xcodeproj">
+            BuildableName = "Wulian.app"
+            BlueprintName = "Wulian"
+            ReferencedContainer = "container:Wulian.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "WulianApp.app"
-            BlueprintName = "WulianApp"
-            ReferencedContainer = "container:WulianApp.xcodeproj">
+            BuildableName = "Wulian.app"
+            BlueprintName = "Wulian"
+            ReferencedContainer = "container:Wulian.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
