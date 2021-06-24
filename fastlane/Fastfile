@@ -9,22 +9,22 @@ end
 platform :ios do
   desc 'Fetch certificates and provisioning profiles'
     lane :certificates do
-      match(app_identifier: 'com.NFKings.app', type: 'development', readonly: true)
-      match(app_identifier: 'com.NFKings.app', type: 'appstore', readonly: true)
+      match(app_identifier: 'com.Wulian.app', type: 'development', readonly: true)
+      match(app_identifier: 'com.Wulian.app', type: 'appstore', readonly: true)
     end
 
   desc 'Build the iOS application.'
     private_lane :build do
       # certificates
-      # increment_build_number(xcodeproj: './ios/NFKings.xcodeproj')
-      gym(scheme: 'NFKings', workspace: './ios/NFKings.xcworkspace')
+      # increment_build_number(xcodeproj: './ios/Wulian.xcodeproj')
+      gym(scheme: 'Wulian', workspace: './ios/Wulian.xcworkspace')
     end
 
   desc 'Ship to Testflight.'
     lane :beta do
       build
       pilot
-      # commit_version_bump(message: 'Bump build', xcodeproj: './ios/NFKings.xcodeproj')
+      # commit_version_bump(message: 'Bump build', xcodeproj: './ios/Wulian.xcodeproj')
       # push_to_git_remote
     end
 end
