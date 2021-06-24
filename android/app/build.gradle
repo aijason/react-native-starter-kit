@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tiancai.nfkings"
+        applicationId "com.tiancai.wulian"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
